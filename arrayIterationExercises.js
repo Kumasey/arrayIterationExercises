@@ -92,7 +92,7 @@ function findHometownBystate(s){
     return users.find(function(val){
     return val["hometown"].state === s})};
 
-findHometownByState('CA')
+findHometownBystate('CA')
 
 //                                  (4)
 
